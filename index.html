@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en-IN" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="SkillConnect" />
+    <meta name="application-name" content="SkillConnect" />
+
+    <!-- Google Search Console Ownership Verification -->
+    <meta name="google-site-verification" content="F3kiT4o65vHF1i7mJ0mkyETvpcwgaoIQqrP8n6ybGVM" />
+
+    <!-- High-Priority LCP Image Preload (Original SkillConnect Brand Logo) -->
+    <link rel="preload" as="image" href="/favicon.png" fetchpriority="high" />
+
+    <!-- Google AdSense Verification & SPA Error Guard -->
+    <script>
+      (function () {
+        window.addEventListener(
+          'error',
+          function (event) {
+            var msg = String((event && event.message) || (event && event.error && event.error.message) || '');
+            var src = String((event && event.filename) || '');
+            if (
+              msg.indexOf('no_div') !== -1 ||
+              msg.indexOf('adsbygoogle') !== -1 ||
+              msg.indexOf('TagError') !== -1 ||
+              src.indexOf('pagead2.googlesyndication.com') !== -1
+            ) {
+              event.preventDefault();
+              event.stopImmediatePropagation();
+              return true;
+            }
+          },
+          true
+        );
+      })();
+    </script>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8492911917617426"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Self-Referencing Canonical URL & Hreflang Regional Signals -->
+    <link rel="canonical" href="https://skillconnectofficial.cloud.run/" />
+    <link rel="alternate" hreflang="en-IN" href="https://skillconnectofficial.cloud.run/" />
+    <link rel="alternate" hreflang="en" href="https://skillconnectofficial.cloud.run/" />
+    <link rel="alternate" hreflang="x-default" href="https://skillconnectofficial.cloud.run/" />
+
+    <!-- Robots & Mobile-First Googlebot Directives (Public pages are index, follow) -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- Primary SEO Meta Tags -->
+    <title>SkillConnect Official – Skill Services Marketplace India</title>
+    <meta name="title" content="SkillConnect Official – Skill Services Marketplace India" />
+    <meta
+      name="description"
+      content="SkillConnect Official connects customers, verified service providers, and companies across India for skill exchange, mentorship, and freelance services."
+    />
+    <meta
+      name="keywords"
+      content="SkillConnect Official, SkillConnect, SkillConnect India, SkillConnect Official India, Abhishek Singh, skill-based services marketplace India, verified professionals India, skill barter India, freelance services marketplace India"
+    />
+    <meta name="author" content="Abhishek Singh" />
+    <meta name="theme-color" content="#050814" />
+
+    <!-- Favicon & Google Search Site Icon (Original SkillConnect Brand Symbol) -->
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://skillconnectofficial.cloud.run/" />
+    <meta property="og:site_name" content="SkillConnect Official" />
+    <meta property="og:title" content="SkillConnect Official – Skill Services Marketplace India" />
+    <meta
+      property="og:description"
+      content="SkillConnect Official connects customers, verified service providers, and companies across India for skill exchange, mentorship, and freelance services."
+    />
+    <meta property="og:image" content="https://skillconnectofficial.cloud.run/favicon.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="SkillConnect Official Logo – Skill-Based Services Marketplace India" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://skillconnectofficial.cloud.run/" />
+    <meta name="twitter:title" content="SkillConnect Official – Skill Services Marketplace India" />
+    <meta
+      name="twitter:description"
+      content="SkillConnect Official connects customers, verified service providers, and companies across India for skill exchange, mentorship, and freelance services."
+    />
+    <meta name="twitter:image" content="https://skillconnectofficial.cloud.run/favicon.png" />
+    <meta name="twitter:image:alt" content="SkillConnect Official Logo – Skill-Based Services Marketplace India" />
+
+    <!-- Pre-Hydration Self-Referencing Canonical, Hreflang & Robots Synchronizer for Clean Sub-Routes -->
+    <script>
+      (function () {
+        var domain = 'https://skillconnectofficial.cloud.run';
+        var rawPath = (window.location.pathname || '/').replace(/\/+$/, '').toLowerCase();
+        var cleanPath = rawPath === '' ? '/' : rawPath;
+        var canonicalLink = document.querySelector('link[rel="canonical"]');
+        var hreflangLinks = document.querySelectorAll('link[rel="alternate"][hreflang]');
+        var ogUrlMeta = document.querySelector('meta[property="og:url"]');
+        var twitterUrlMeta = document.querySelector('meta[name="twitter:url"]');
+        var robotsMeta = document.querySelector('meta[name="robots"]');
+        var googlebotMeta = document.querySelector('meta[name="googlebot"]');
+        var bingbotMeta = document.querySelector('meta[name="bingbot"]');
+
+        if (cleanPath === '/founder-cms') {
+          if (robotsMeta) robotsMeta.setAttribute('content', 'noindex, nofollow');
+          if (googlebotMeta) googlebotMeta.setAttribute('content', 'noindex, nofollow');
+          if (bingbotMeta) bingbotMeta.setAttribute('content', 'noindex, nofollow');
+        } else {
+          var targetCanonical = cleanPath === '/' ? domain + '/' : domain + cleanPath;
+          if (canonicalLink) canonicalLink.setAttribute('href', targetCanonical);
+          if (ogUrlMeta) ogUrlMeta.setAttribute('content', targetCanonical);
+          if (twitterUrlMeta) twitterUrlMeta.setAttribute('content', targetCanonical);
+          for (var i = 0; i < hreflangLinks.length; i++) {
+            hreflangLinks[i].setAttribute('href', targetCanonical);
+          }
+        }
+      })();
+    </script>
+
+    <!-- Schema.org Organization, WebSite, Service, FAQPage, and All Public Routes BreadcrumbList Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://skillconnectofficial.cloud.run/#organization",
+            "name": "SkillConnect Official",
+            "alternateName": ["SkillConnect", "SkillConnect India", "SkillConnect Official India"],
+            "url": "https://skillconnectofficial.cloud.run/",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://skillconnectofficial.cloud.run/#logo",
+              "url": "https://skillconnectofficial.cloud.run/favicon.png",
+              "contentUrl": "https://skillconnectofficial.cloud.run/favicon.png",
+              "caption": "SkillConnect Official Brand Logo"
+            },
+            "description": "SkillConnect Official is an independent Indian skill-based services marketplace connecting customers, skilled service providers, and companies across India. Founded and engineered by Abhishek Singh.",
+            "email": "singhabhishek83072@gmail.com",
+            "founder": {
+              "@type": "Person",
+              "name": "Abhishek Singh",
+              "jobTitle": "Founder & Developer",
+              "sameAs": "https://www.instagram.com/abhishek_skillconnect?rpxt=MTFrM3l5b212OWpieA=="
+            },
+            "member": [
+              {
+                "@type": "Person",
+                "name": "Abhay Singh",
+                "jobTitle": "Administration Member",
+                "sameAs": "https://www.instagram.com/abhaysinghthakur6921chauhan?srtk=Z3gxcXhoa2ljMjQ2"
+              },
+              {
+                "@type": "Person",
+                "name": "Adarsh Singh",
+                "jobTitle": "Administration Member",
+                "sameAs": "https://www.instagram.com/adarsh_edge?exln=d2J6bHViMnMxOWd4"
+              },
+              {
+                "@type": "Person",
+                "name": "Abhay Bharti",
+                "jobTitle": "Administration Member",
+                "sameAs": "https://www.instagram.com/itz_.harsh_.07?srtk=eXN0YTd5bmY2b2p4"
+              }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer support",
+              "email": "singhabhishek83072@gmail.com",
+              "areaServed": "IN",
+              "availableLanguage": ["en", "hi"]
+            },
+            "sameAs": [
+              "https://www.instagram.com/skillconnectofficiall",
+              "https://www.instagram.com/abhishek_skillconnect?rpxt=MTFrM3l5b212OWpieA=="
+            ],
+            "areaServed": {
+              "@type": "Country",
+              "name": "India"
+            },
+            "knowsAbout": [
+              "Skill-based services marketplace",
+              "Verified service professionals",
+              "Direct mentorship",
+              "Skill barter",
+              "Freelance opportunities in India"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://skillconnectofficial.cloud.run/#website",
+            "url": "https://skillconnectofficial.cloud.run/",
+            "name": "SkillConnect Official",
+            "alternateName": ["SkillConnect", "SkillConnect India"],
+            "description": "Official portal for SkillConnect Official – India's skill-based services marketplace connecting customers, verified service providers, and companies.",
+            "publisher": {
+              "@id": "https://skillconnectofficial.cloud.run/#organization"
+            },
+            "inLanguage": ["en-IN", "en-US"]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://skillconnectofficial.cloud.run/#service",
+            "name": "SkillConnect Skill-Based Services & Professional Marketplace",
+            "serviceType": "Skill-Based Services Marketplace & Professional Networking",
+            "provider": {
+              "@id": "https://skillconnectofficial.cloud.run/#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "India"
+            },
+            "description": "Connects customers seeking verified digital, technical, and creative services with skilled service providers, mentors, and freelancers across India."
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://skillconnectofficial.cloud.run/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is SkillConnect Official?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SkillConnect Official (https://skillconnectofficial.cloud.run/) is an independent Indian skill-based services marketplace founded and engineered by Abhishek Singh that connects customers, verified service providers, and companies across India."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does SkillConnect help customers and service providers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Customers can discover verified service providers with real project proof, request freelance services, or book 1-on-1 mentorship. Service providers can build verified portfolios, receive direct client inquiries without intermediaries, and participate in peer-to-peer skill exchange."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "When is the official SkillConnect mobile app launching?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Check the official SkillConnect website and verified social channels for confirmed Android app availability. The official web portal provides platform information and updates."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <!-- Active Route BreadcrumbList JSON-LD (Synchronized Pre-Hydration & During SPA Navigation) -->
+    <script id="active-route-breadcrumb-jsonld" type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "@id": "https://skillconnectofficial.cloud.run/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "SkillConnect Official",
+            "item": "https://skillconnectofficial.cloud.run/"
+          }
+        ]
+      }
+    </script>
+    <script>
+      (function () {
+        var domain = 'https://skillconnectofficial.cloud.run';
+        var rawPath = (window.location.pathname || '/').replace(/\/+$/, '').toLowerCase();
+        var cleanPath = rawPath === '' ? '/' : rawPath;
+        var routeLabels = {
+          '/about': 'About Us & Leadership',
+          '/features': 'Verified Features & Services',
+          '/services': 'Skill-Based Services Marketplace',
+          '/showcase': 'Mobile App Showcase',
+          '/launch': 'Launch Information & Roadmap',
+          '/feedback': 'Community Feedback & Reviews',
+          '/contact': 'Contact Us & Inquiries',
+          '/privacy': 'Privacy Policy (GDPR / DPDP)',
+          '/terms': 'Terms & Conditions',
+          '/disclaimer': 'Platform Disclaimer',
+          '/deletion': 'Account & Data Deletion Protocol'
+        };
+        var breadcrumbScript = document.getElementById('active-route-breadcrumb-jsonld');
+        if (breadcrumbScript && cleanPath !== '/' && routeLabels[cleanPath]) {
+          breadcrumbScript.textContent = JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            '@id': domain + cleanPath + '#breadcrumb',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'SkillConnect Official',
+                item: domain + '/'
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: routeLabels[cleanPath],
+                item: domain + cleanPath
+              }
+            ]
+          });
+        }
+      })();
+    </script>
+
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#050814] text-slate-100 font-sans antialiased selection:bg-cyan-500/30 selection:text-cyan-200 overflow-x-hidden">
+    <div id="root">
+      <!-- Pre-rendered semantic HTML content for immediate Googlebot indexing prior to React hydration -->
+      <header class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-wrap items-center justify-between gap-4 border-b border-white/10">
+        <a href="/" class="inline-flex items-center gap-3 text-white font-bold text-xl min-h-[44px]">
+          <img
+            src="/favicon.png"
+            alt="SkillConnect Official Logo - Find Trusted Professionals & Services Across India"
+            width="40"
+            height="40"
+          />
+          <span>SkillConnect Official</span>
+        </a>
+        <nav aria-label="Primary Navigation" class="flex flex-wrap items-center gap-2 sm:gap-5 text-sm text-slate-300">
+          <a href="/" class="inline-flex items-center min-h-[44px] px-2">Home</a>
+          <a href="/about" class="inline-flex items-center min-h-[44px] px-2">About Us</a>
+          <a href="/features" class="inline-flex items-center min-h-[44px] px-2">Features &amp; Services</a>
+          <a href="/showcase" class="inline-flex items-center min-h-[44px] px-2">App Showcase</a>
+          <a href="/feedback" class="inline-flex items-center min-h-[44px] px-2">Community Feedback</a>
+          <a href="/launch" class="inline-flex items-center min-h-[44px] px-2">Launch Info</a>
+          <a href="/contact" class="inline-flex items-center min-h-[44px] px-2">Contact Us</a>
+        </nav>
+      </header>
+
+      <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 space-y-14 sm:space-y-16">
+        <section aria-labelledby="hero-heading">
+          <p class="text-xs font-semibold uppercase tracking-widest text-cyan-400 mb-3">
+            Building Skills. Connecting Opportunities.
+          </p>
+          <h1 id="hero-heading" class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-6">
+            Discover Skills. Connect Opportunities Across India.
+          </h1>
+          <p class="text-base sm:text-lg text-slate-300 max-w-3xl leading-relaxed mb-6">
+            SkillConnect Official is an independent Indian skill-based services marketplace connecting customers, verified service providers, freelancers, and companies across India. Conceived and engineered by Founder &amp; Developer Abhishek Singh, SkillConnect bridges real-world capability with direct opportunity.
+          </p>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
